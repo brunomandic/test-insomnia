@@ -1,0 +1,26 @@
+_id: req_wrk_ae6693b93b5b4ccebf17b2e69f1313743b13e39c
+type: Request
+parentId: wrk_ae6693b93b5b4ccebf17b2e69f131374
+modified: 1680498362190
+created: 1679645525738
+url: "{{ base_url }}/pets/{{ petId }}"
+name: Info for a specific pet
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_65afc542b3684ecbb160bbe406d4fb15
+    name: petId
+    value: "3"
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1679645525738
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
